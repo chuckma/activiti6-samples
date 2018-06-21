@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="processEngineConfiguration"
+          class="org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
+        <!--<property nam  e="databaseSchemaUpdate" value="create-drop"/>-->
+        <property name="databaseSchemaUpdate" value="true"/>
+        <property name="dataSource" ref="dataSource"/>
+        <!--<property name="dataSource" ref="dataSource"/>-->
+
+        <!--流程执行完毕是否保留历史数据-->
+        <!--<property name="dbHistoryUsed" value="true"></property>-->
+        <!--是否使用身份权限，一般是和系统的权限去做集成-->
+        <!--<property name="dbIdentityUsed" value="true"></property>-->
+        <!--表结构增加前缀-->
+        <!--<property name="databaseTablePrefix" value="t_"/>-->
+        <!--默认不需要我们手动设置-->
+        <!--<property name="databaseType" value="mysql"/>-->
+    </bean>
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url"
+                  value="jdbc:mysql://localhost:3306/activiti6unit?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="username" value="root"/>
+        <property name="password" value="rootpwd"/>
+        <property name="initialSize" value="1"/>
+        <property name="maxActive" value="10"/>
+        <property name="filters" value="stat,slf4j"/>
+    </bean>
+
+</beans>

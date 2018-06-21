@@ -4,11 +4,13 @@
     <property name="encoding" value="UTF-8" />
     <property name="plain" value="%msg%n" />
     <property name="std" value="%d{HH:mm:ss.SSS}[%thread][%-5level]%msg %X{user} %logger{10}.%M:%L%n" />
+    <property name="mdc" value="%d{HH:mm:ss.SSS}[%thread][%-5level]%msg  ProcessDefinitionId=%X{mdcProcessDefinitionID}
+executionId=%X{mdcExecutionId} mdcProcessInstanceID=%X{mdcProcessInstanceID} mdcBusinessKey=%X{mdcBusinessKey} %logger{10}.%M:%L%n" />
     <property name="normal" value="%d{yyyy-MM-dd:HH:mm:ss.SSS}[%thread][%-5level] %logger{10}.%M:%L  %msg%n" />
     <!-- 控制台输出 -->
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>${plain}</pattern>
+            <pattern>${mdc}</pattern>
             <charset>${encoding}</charset>
         </encoder>
     </appender>
@@ -27,10 +29,9 @@
         </encoder>
     </appender>
     <logger name="root" >
-        <level value="ERROR"/>
+        <level value="INFO"/>
     </logger>
-    <!---->
-    <logger name="cn.lucasma" >
+    <logger name="${package}" >
         <level value="DEBUG"/>
     </logger>
     <root>
