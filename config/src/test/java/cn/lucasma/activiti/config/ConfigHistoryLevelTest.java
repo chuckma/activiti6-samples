@@ -42,75 +42,34 @@ public class ConfigHistoryLevelTest {
 
 
         // 启动流程
-        Map<String, Object> params = Maps.newHashMap();
-        params.put("kyeStart1", "value1");
-        params.put("kyeStart2", "value2");
-        ProcessInstance processInstance = activitiRule.getRuntimeService().startProcessInstanceByKey("my-process");
-        assertNotNull(processInstance);
-
+        startProcessInstance();
 
         // 修改变量
-        List<Execution> executions = activitiRule.getRuntimeService().createExecutionQuery().listPage(0, 100);
-        for (Execution execution : executions) {
-            logger.info("execution :{}", execution);
-        }
-        logger.info("execution size :{}", executions.size());
-
-
-        String id = executions.iterator().next().getId();
-        activitiRule.getRuntimeService().setVariable(id, "kyeStart1", "value1_new");
+        changeVaiable();
 
         // 提交表单 task
 
-        Task task = activitiRule.getTaskService().createTaskQuery().singleResult();
-        Map<String, String> properties = Maps.newHashMap();
-        properties.put("formKey1", "valueF1");
-        properties.put("formKey2", "valueF2");
-        activitiRule.getFormService().submitTaskFormData(task.getId(), properties);
+        submitTaskFormData();
 
         // 输出历史内容
         // 输出历史活动
-        List<HistoricActivityInstance> historicActivityInstances = activitiRule.getHistoryService()
-                .createHistoricActivityInstanceQuery()
-                .listPage(0, 100);
-        for (HistoricActivityInstance historicActivityInstance : historicActivityInstances) {
-            logger.info("historicActivityInstance {}", historicActivityInstance);
-        }
-        logger.info("historicActivityInstances size ={}", historicActivityInstances.size());
+        showHistoryAcvitity();
 
+        // 输出历史变量
+        showHistoryVariable();
 
-        List<HistoricVariableInstance> historicVariableInstances = activitiRule.getHistoryService()
-                .createHistoricVariableInstanceQuery()
-                .listPage(0, 100);
-
-        for (HistoricVariableInstance historicVariableInstance : historicVariableInstances) {
-            logger.info("historicVariableInstance {}", historicVariableInstance);
-        }
-        logger.info("historicVariableInstances size = {}",historicVariableInstances.size());
+        // 输出历史用户任务
+        showHistoryTask();
 
         // 输出历史表单
-        List<HistoricTaskInstance> historicTaskInstances = activitiRule.getHistoryService()
-                .createHistoricTaskInstanceQuery()
-                .listPage(0, 100);
-
-        for (HistoricTaskInstance historicTaskInstance : historicTaskInstances) {
-            logger.info("historicTaskInstance {}", historicTaskInstance);
-        }
-        logger.info("historicTaskInstances size ={}", historicTaskInstances.size());
-
-
-        List<HistoricDetail> historicDetailsForm = activitiRule.getHistoryService()
-                .createHistoricDetailQuery()
-                .formProperties()
-                .listPage(0, 100);
-
-        for (HistoricDetail historicDetail : historicDetailsForm) {
-            logger.info("historicDetail {}", toString(historicDetail));
-        }
-        logger.info("historicDetailsForm size ={}", historicDetailsForm.size());
+        showHistoryForm();
 
         // 输出历史详情
 
+        showHistoryDetail();
+    }
+
+    private void showHistoryDetail() {
         List<HistoricDetail> historicDetails = activitiRule.getHistoryService()
                 .createHistoricDetailQuery()
                 .listPage(0, 100);
@@ -120,7 +79,80 @@ public class ConfigHistoryLevelTest {
         }
         logger.info("historicDetails size ={}", historicDetails.size());
     }
-    static String toString(HistoricDetail historicDetail){
+
+    private void showHistoryForm() {
+        List<HistoricDetail> historicDetailsForm = activitiRule.getHistoryService()
+                .createHistoricDetailQuery()
+                .formProperties()
+                .listPage(0, 100);
+
+        for (HistoricDetail historicDetail : historicDetailsForm) {
+            logger.info("historicDetail {}", toString(historicDetail));
+        }
+        logger.info("historicDetailsForm size ={}", historicDetailsForm.size());
+    }
+
+    private void showHistoryTask() {
+        List<HistoricTaskInstance> historicTaskInstances = activitiRule.getHistoryService()
+                .createHistoricTaskInstanceQuery()
+                .listPage(0, 100);
+
+        for (HistoricTaskInstance historicTaskInstance : historicTaskInstances) {
+            logger.info("historicTaskInstance {}", historicTaskInstance);
+        }
+        logger.info("historicTaskInstances size ={}", historicTaskInstances.size());
+    }
+
+    private void showHistoryVariable() {
+        List<HistoricVariableInstance> historicVariableInstances = activitiRule.getHistoryService()
+                .createHistoricVariableInstanceQuery()
+                .listPage(0, 100);
+
+        for (HistoricVariableInstance historicVariableInstance : historicVariableInstances) {
+            logger.info("historicVariableInstance {}", historicVariableInstance);
+        }
+        logger.info("historicVariableInstances size = {}", historicVariableInstances.size());
+    }
+
+    private void showHistoryAcvitity() {
+        List<HistoricActivityInstance> historicActivityInstances = activitiRule.getHistoryService()
+                .createHistoricActivityInstanceQuery()
+                .listPage(0, 100);
+        for (HistoricActivityInstance historicActivityInstance : historicActivityInstances) {
+            logger.info("historicActivityInstance {}", historicActivityInstance);
+        }
+        logger.info("historicActivityInstances size ={}", historicActivityInstances.size());
+    }
+
+    private void submitTaskFormData() {
+        Task task = activitiRule.getTaskService().createTaskQuery().singleResult();
+        Map<String, String> properties = Maps.newHashMap();
+        properties.put("formKey1", "valueF1");
+        properties.put("formKey2", "valueF2");
+        activitiRule.getFormService().submitTaskFormData(task.getId(), properties);
+    }
+
+    private void changeVaiable() {
+        List<Execution> executions = activitiRule.getRuntimeService().createExecutionQuery().listPage(0, 100);
+        for (Execution execution : executions) {
+            logger.info("execution :{}", execution);
+        }
+        logger.info("execution size :{}", executions.size());
+
+
+        String id = executions.iterator().next().getId();
+        activitiRule.getRuntimeService().setVariable(id, "kyeStart1", "value1_new");
+    }
+
+    private void startProcessInstance() {
+        Map<String, Object> params = Maps.newHashMap();
+        params.put("kyeStart1", "value1");
+        params.put("kyeStart2", "value2");
+        ProcessInstance processInstance = activitiRule.getRuntimeService().startProcessInstanceByKey("my-process");
+        assertNotNull(processInstance);
+    }
+
+    static String toString(HistoricDetail historicDetail) {
         return ToStringBuilder.reflectionToString(historicDetail, ToStringStyle.SHORT_PREFIX_STYLE);
     }
 }

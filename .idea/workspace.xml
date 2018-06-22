@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/activiti_history.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="ConfigHistoryLevelTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="88" column="90" selection-start-line="88" selection-start-column="90" selection-end-line="88" selection-end-column="90" />
+            <state relative-caret-position="-1217">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -82,8 +79,8 @@
         <option value="$PROJECT_DIR$/config/src/main/resources/activiti_mdc.cfg.xml" />
         <option value="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti/my-process_mdcerror.bpmn20.xml" />
         <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigMDCTest.java" />
-        <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java" />
         <option value="$PROJECT_DIR$/config/src/main/resources/activiti_history.cfg.xml" />
+        <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java" />
       </list>
     </option>
   </component>
@@ -265,6 +262,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true&#10;/Users/lucasma/code/activiti6-samples/.idea/workspace.xml" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -486,7 +484,7 @@
       <workItem from="1529326323882" duration="100000" />
       <workItem from="1529326447072" duration="408000" />
       <workItem from="1529411562783" duration="3546000" />
-      <workItem from="1529497243613" duration="14790000" />
+      <workItem from="1529497243613" duration="15253000" />
     </task>
     <servers />
   </component>
@@ -523,10 +521,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18844000" />
+    <option name="totallyTimeSpent" value="19307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -540,7 +539,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.72069824" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
@@ -804,8 +803,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="88" column="90" selection-start-line="88" selection-start-column="90" selection-end-line="88" selection-end-column="90" />
+        <state relative-caret-position="-1217">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
