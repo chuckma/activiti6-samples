@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/event/CustomEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/event/ProcessEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/activiti_eventlistener.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/interceptor/DurationCommandInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/activiti_interceptor.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigInterceptorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventLogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventLogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigMDCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigMDCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/target/classes/cn/lucasma/activiti/DemoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/classes/cn/lucasma/activiti/DemoMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/target/test-classes/cn/lucasma/activiti/MyUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/test-classes/cn/lucasma/activiti/MyUnitTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,55 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProcessEventListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/event/ProcessEventListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activiti_eventlistener.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_eventlistener.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="27" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activiti_eventlog.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_eventlog.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigEventListenerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventListenerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomEventListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/event/CustomEventListener.java">
+      <file leaf-file-name="activiti_interceptor.cfg.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_interceptor.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-              </folding>
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -120,6 +69,9 @@
         <option value="$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/event/CustomEventListener.java" />
         <option value="$PROJECT_DIR$/config/src/main/resources/activiti_eventlistener.cfg.xml" />
         <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventListenerTest.java" />
+        <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigInterceptorTest.java" />
+        <option value="$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/interceptor/DurationCommandInterceptor.java" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/activiti_interceptor.cfg.xml" />
       </list>
     </option>
   </component>
@@ -173,7 +125,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -225,7 +176,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
@@ -278,6 +229,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,17 +246,17 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config/src/main/resources/aa" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
-      <recent name="$PROJECT_DIR$/config/src/main/resources/activiti_druid.cfg.xml" />
+      <recent name="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.lucasma.activiti.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/src/main/resources/aa" />
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
-      <recent name="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti" />
+      <recent name="$PROJECT_DIR$/config/src/main/resources/activiti_druid.cfg.xml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,32 +271,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConfigEventListenerTest.test">
+  <component name="RunManager" selected="JUnit.ConfigInterceptorTest.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ConfigDBTest.testConfig2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.config" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.config.ConfigDBTest" />
-      <option name="METHOD_NAME" value="testConfig2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ConfigEventListenerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="config" />
@@ -404,6 +333,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.config" />
       <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.config.ConfigHistoryLevelTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConfigInterceptorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.config" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.config.ConfigInterceptorTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -477,19 +429,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConfigDBTest.testConfig2" />
       <item itemvalue="JUnit.ConfigMDCTest.test" />
       <item itemvalue="JUnit.ConfigHistoryLevelTest.test" />
       <item itemvalue="JUnit.ConfigEventLogTest.test" />
       <item itemvalue="JUnit.ConfigEventListenerTest.test" />
+      <item itemvalue="JUnit.ConfigInterceptorTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConfigInterceptorTest.test" />
         <item itemvalue="JUnit.ConfigEventListenerTest.test" />
         <item itemvalue="JUnit.ConfigEventLogTest.test" />
         <item itemvalue="JUnit.ConfigHistoryLevelTest.test" />
         <item itemvalue="JUnit.ConfigMDCTest.test" />
-        <item itemvalue="JUnit.ConfigDBTest.testConfig2" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +459,8 @@
       <workItem from="1529326447072" duration="408000" />
       <workItem from="1529411562783" duration="3546000" />
       <workItem from="1529497243613" duration="15594000" />
-      <workItem from="1529739347846" duration="2695000" />
+      <workItem from="1529739347846" duration="3084000" />
+      <workItem from="1529761639152" duration="851000" />
     </task>
     <servers />
   </component>
@@ -544,10 +497,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22343000" />
+    <option name="totallyTimeSpent" value="23583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -564,8 +518,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -577,21 +532,20 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.72069824" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
@@ -602,13 +556,13 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917705" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32917705" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32917705" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/interceptor/MDCCommandInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_history.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -795,13 +742,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventLogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -844,17 +784,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_eventlistener.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventListenerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="381">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventListenerTest.java">
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_eventlistener.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
+        <state relative-caret-position="323">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventLogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/interceptor/MDCCommandInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/interceptor/DurationCommandInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigInterceptorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="77" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_interceptor.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
