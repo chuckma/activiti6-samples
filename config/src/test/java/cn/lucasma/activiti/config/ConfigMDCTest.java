@@ -19,7 +19,7 @@ import static org.junit.Assert.assertNotNull;
  * MDC 测试
  */
 public class ConfigMDCTest {
-    private static final Logger LOGGER = LoggerFactory.getLogger(ConfigTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ConfigMDCTest.class);
     @Rule
     public ActivitiRule activitiRule = new ActivitiRule("activiti_mdc.cfg.xml");
 

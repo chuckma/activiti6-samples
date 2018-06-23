@@ -31,7 +31,7 @@ import static org.junit.Assert.assertNotNull;
  * History 有 4 个级别，
  */
 public class ConfigHistoryLevelTest {
-    private static final Logger logger = LoggerFactory.getLogger(ConfigTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(ConfigHistoryLevelTest.class);
     @Rule
     public ActivitiRule activitiRule = new ActivitiRule("activiti_history.cfg.xml");
 

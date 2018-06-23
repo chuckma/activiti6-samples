@@ -1,5 +1,8 @@
 package cn.lucasma.activiti.config;
 
+import cn.lucasma.activiti.event.CustomEventListener;
+import org.activiti.engine.delegate.event.ActivitiEventType;
+import org.activiti.engine.delegate.event.impl.ActivitiEventImpl;
 import org.activiti.engine.event.EventLogEntry;
 import org.activiti.engine.logging.LogMDC;
 import org.activiti.engine.runtime.ProcessInstance;
@@ -19,12 +22,12 @@ import static org.junit.Assert.assertNotNull;
 /**
  * @Author Lucas Ma
  * <p>
- * EventLog 测试
+ * EventListener 测试
  */
-public class ConfigEventLogTest {
-    private static final Logger logger = LoggerFactory.getLogger(ConfigEventLogTest.class);
+public class ConfigEventListenerTest {
+    private static final Logger logger = LoggerFactory.getLogger(ConfigEventListenerTest.class);
     @Rule
-    public ActivitiRule activitiRule = new ActivitiRule("activiti_eventlog.cfg.xml");
+    public ActivitiRule activitiRule = new ActivitiRule("activiti_eventlistener.cfg.xml");
 
     @Test
     @Deployment(resources = {"cn/lucasma/activiti/my-process.bpmn20.xml"})
@@ -38,15 +41,18 @@ public class ConfigEventLogTest {
         assertEquals("Activiti is awesome!", task.getName());
         activitiRule.getTaskService().complete(task.getId());
 
+        activitiRule.getRuntimeService().addEventListener(new CustomEventListener());
+        activitiRule.getRuntimeService().dispatchEvent(new ActivitiEventImpl(ActivitiEventType.CUSTOM));
 
-        List<EventLogEntry> eventLogEntries = activitiRule.getManagementService()
-                .getEventLogEntriesByProcessInstanceId(processInstance.getProcessInstanceId());
 
-        for (EventLogEntry eventLogEntry : eventLogEntries) {
-            logger.info("eventLog.type {}, eventLog.data {}", eventLogEntry.getType(),new String (eventLogEntry.getData()));
-        }
-
-        logger.info("eventLogEntries size ={}",eventLogEntries.size());
+//        List<EventLogEntry> eventLogEntries = activitiRule.getManagementService()
+//                .getEventLogEntriesByProcessInstanceId(processInstance.getProcessInstanceId());
+//
+//        for (EventLogEntry eventLogEntry : eventLogEntries) {
+//            logger.info("eventLog.type {}, eventLog.data {}", eventLogEntry.getType(),new String (eventLogEntry.getData()));
+//        }
+//
+//        logger.info("eventLogEntries size ={}",eventLogEntries.size());
     }
 
 }
