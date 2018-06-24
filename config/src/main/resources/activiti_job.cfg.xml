@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="processEngineConfiguration"
+          class="org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
+        <!--<property name="jdbcUrl" value="jdbc:h2:mem:activiti;DB_CLOSE_DELAY=1000;MVCC=TRUE" />-->
+        <!--<property name="jdbcDriver" value="org.h2.Driver" />-->
+        <!--<property name="jdbcUsername" value="sa" />-->
+        <!--<property name="jdbcPassword" value="" />-->
+        <!--<property name="commandInvoker" ref="commandInvoker"/>-->
+        <!--开启事件日志 默认是 false-->
+        <property name="enableDatabaseEventLogging" value="true"/>
+        <!--打开异步激活器-->
+        <property name="asyncExecutorActivate" value="true"/>
+        <property name="asyncExecutor" ref="asyncExecutor"/>
+        <property name="eventListeners">
+            <list>
+                <bean class="cn.lucasma.activiti.event.JobEventListener"/>
+            </list>
+        </property>
+
+
+    </bean>
+    <bean id="asyncExecutor" class="org.activiti.engine.impl.asyncexecutor.DefaultAsyncJobExecutor">
+        <property name="executorService" ref="executorService"/>
+    </bean>
+    <bean id="executorService" class="org.springframework.scheduling.concurrent.ThreadPoolExecutorFactoryBean">
+        <!--线程前缀-->
+        <property name="threadNamePrefix" value="activiti-job-"/>
+        <!--核心线程数-->
+        <property name="corePoolSize" value="5"/>
+        <!--最大线程数-->
+        <property name="maxPoolSize" value="20"/>
+        <!--队列容量-->
+        <property name="queueCapacity" value="100"/>
+        <!--拒绝策略-->
+        <property name="rejectedExecutionHandler">
+            <bean class="java.util.concurrent.ThreadPoolExecutor$AbortPolicy"/>
+        </property>
+    </bean>
+    <bean id="commandInvoker" class="cn.lucasma.activiti.interceptor.MDCCommandInvoker"/>
+</beans>
