@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/delegate/HelloBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/activiti-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigSpringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti/my-process_spring.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/coreapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/test/resources/my-process.bpmn20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/coreapi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +24,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RepositoryServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,6 +92,10 @@
         <option value="$PROJECT_DIR$/config/src/main/resources/activiti-context.xml" />
         <option value="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti/my-process_spring.bpmn20.xml" />
         <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigSpringTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepostoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/pom.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java" />
       </list>
     </option>
   </component>
@@ -102,12 +124,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="coreapi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -143,67 +160,52 @@
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -211,41 +213,14 @@
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -253,7 +228,7 @@
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -291,6 +266,7 @@
       <recent name="cn.lucasma.activiti.event" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coreapi/src/test/resources" />
       <recent name="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti" />
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
     </key>
@@ -307,55 +283,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConfigSpringTest.test">
+  <component name="RunManager" selected="JUnit.RepositoryServiceTest.testRepostory">
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.DemoMain" />
+      <module name="coreapi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ConfigEventListenerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.config" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.config.ConfigEventListenerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConfigEventLogTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.config" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.config.ConfigEventLogTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ConfigHistoryLevelTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="config" />
@@ -426,6 +367,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="RepositoryServiceTest.testRepostory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.RepositoryServiceTest" />
+      <option name="METHOD_NAME" value="testRepostory" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -465,19 +429,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConfigEventListenerTest.test" />
-      <item itemvalue="JUnit.ConfigEventLogTest.test" />
       <item itemvalue="JUnit.ConfigHistoryLevelTest.test" />
       <item itemvalue="JUnit.ConfigInterceptorTest.test" />
       <item itemvalue="JUnit.ConfigSpringTest.test" />
+      <item itemvalue="JUnit.RepositoryServiceTest.testRepostory" />
+      <item itemvalue="Application.DemoMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryServiceTest.testRepostory" />
+        <item itemvalue="Application.DemoMain" />
         <item itemvalue="JUnit.ConfigSpringTest.test" />
         <item itemvalue="JUnit.ConfigInterceptorTest.test" />
         <item itemvalue="JUnit.ConfigHistoryLevelTest.test" />
-        <item itemvalue="JUnit.ConfigEventLogTest.test" />
-        <item itemvalue="JUnit.ConfigEventListenerTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -497,47 +461,48 @@
       <workItem from="1529497243613" duration="15594000" />
       <workItem from="1529739347846" duration="3084000" />
       <workItem from="1529761639152" duration="4768000" />
-      <workItem from="1529843892101" duration="2571000" />
+      <workItem from="1529843892101" duration="5557000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfigDBTest_testConfig2 - 2018.06.24 at 20h 35m 17s.xml">
-      <configuration name="ConfigDBTest.testConfig2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigDBTest_testConfig2 - 2018.06.24 at 20h 36m 07s.xml">
-      <configuration name="ConfigDBTest.testConfig2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigEventListenerTest_test - 2018.06.24 at 20h 36m 20s.xml">
-      <configuration name="ConfigEventListenerTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigEventLogTest_test - 2018.06.24 at 20h 36m 31s.xml">
-      <configuration name="ConfigEventLogTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigHistoryLevelTest_test - 2018.06.24 at 20h 36m 43s.xml">
-      <configuration name="ConfigHistoryLevelTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigInterceptorTest_test - 2018.06.24 at 20h 36m 54s.xml">
-      <configuration name="ConfigInterceptorTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigSpringTest_test - 2018.06.25 at 20h 55m 26s.xml">
-      <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigSpringTest_test - 2018.06.25 at 20h 55m 53s.xml">
-      <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConfigSpringTest_test - 2018.06.25 at 21h 01m 51s.xml">
       <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConfigSpringTest_test - 2018.06.25 at 21h 03m 04s.xml">
       <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 21h 59m 58s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 03m 55s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 05m 44s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 07m 33s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 09m 03s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 09m 45s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 10m 25s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 15m 35s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30071000" />
+    <option name="totallyTimeSpent" value="33057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -548,10 +513,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32917705" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.72069824" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.72069824" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32917705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
@@ -613,44 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" column="87" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigInterceptorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_job.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="109" selection-start-line="28" selection-start-column="109" selection-end-line="28" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigMDCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/DemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -722,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/interceptor/DebugCommandInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -747,6 +667,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="36" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -754,6 +677,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -775,6 +703,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -879,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigMDCTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -914,13 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="9" column="52" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/event/JobEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="40" selection-start-line="12" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -976,6 +893,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/event/JobEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="50" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process.bpmn20.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1214">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/DemoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="40" column="16" lean-forward="true" selection-start-line="1" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
