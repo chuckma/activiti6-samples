@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="" />
+    <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coreapi/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coreapi/src/main/resources/logback.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
@@ -14,7 +18,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RepositoryServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,7 +45,11 @@
       <find>submitType</find>
       <find>customPreCommandInterceptors</find>
       <find>druid.version</find>
+      <find>LOGGER</find>
     </findStrings>
+    <replaceStrings>
+      <replace>logger</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,8 +92,10 @@
         <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigSpringTest.java" />
         <option value="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepostoryServiceTest.java" />
         <option value="$PROJECT_DIR$/coreapi/pom.xml" />
-        <option value="$PROJECT_DIR$/coreapi/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/RepositoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java" />
       </list>
     </option>
   </component>
@@ -170,16 +193,6 @@
               <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,6 +201,33 @@
               <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
@@ -233,6 +273,10 @@
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
       <recent name="$PROJECT_DIR$/config/src/main/resources/activiti_druid.cfg.xml" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.lucasma.activiti.coreapi" />
+      <recent name="cn.lucasma.activiti" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.lucasma.activiti.config" />
       <recent name="cn.lucasma.activiti.event" />
@@ -255,66 +299,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryServiceTest.testRepostory">
+  <component name="RunManager" selected="JUnit.RepositoryServiceTest.testCandidateStarter">
     <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.DemoMain" />
       <module name="coreapi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.*" />
+          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ConfigHistoryLevelTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.config" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.config.ConfigHistoryLevelTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConfigInterceptorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.config" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.config.ConfigInterceptorTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ConfigSpringTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="config" />
@@ -339,6 +337,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="RepositoryServiceTest.testCandidateStarter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.RepositoryServiceTest" />
+      <option name="METHOD_NAME" value="testCandidateStarter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="RepositoryServiceTest.testRepostory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
       <extension name="coverage">
@@ -352,6 +373,29 @@
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
       <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.RepositoryServiceTest" />
       <option name="METHOD_NAME" value="testRepostory" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RepositoryServiceTest.testSuspend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.RepositoryServiceTest" />
+      <option name="METHOD_NAME" value="testSuspend" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -401,19 +445,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConfigHistoryLevelTest.test" />
-      <item itemvalue="JUnit.ConfigInterceptorTest.test" />
       <item itemvalue="JUnit.ConfigSpringTest.test" />
       <item itemvalue="JUnit.RepositoryServiceTest.testRepostory" />
       <item itemvalue="Application.DemoMain" />
+      <item itemvalue="JUnit.RepositoryServiceTest.testSuspend" />
+      <item itemvalue="JUnit.RepositoryServiceTest.testCandidateStarter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryServiceTest.testCandidateStarter" />
+        <item itemvalue="JUnit.RepositoryServiceTest.testSuspend" />
         <item itemvalue="JUnit.RepositoryServiceTest.testRepostory" />
         <item itemvalue="Application.DemoMain" />
         <item itemvalue="JUnit.ConfigSpringTest.test" />
-        <item itemvalue="JUnit.ConfigInterceptorTest.test" />
-        <item itemvalue="JUnit.ConfigHistoryLevelTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -433,23 +477,11 @@
       <workItem from="1529497243613" duration="15594000" />
       <workItem from="1529739347846" duration="3084000" />
       <workItem from="1529761639152" duration="4768000" />
-      <workItem from="1529843892101" duration="5799000" />
+      <workItem from="1529843892101" duration="6728000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfigSpringTest_test - 2018.06.25 at 21h 01m 51s.xml">
-      <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConfigSpringTest_test - 2018.06.25 at 21h 03m 04s.xml">
-      <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 21h 59m 58s.xml">
-      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 03m 55s.xml">
-      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 05m 44s.xml">
       <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
     </history-entry>
@@ -468,12 +500,25 @@
     <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.25 at 22h 15m 35s.xml">
       <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.26 at 20h 26m 08s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testRepostory - 2018.06.26 at 20h 27m 05s.xml">
+      <configuration name="RepositoryServiceTest.testRepostory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testSuspend - 2018.06.26 at 20h 28m 55s.xml">
+      <configuration name="RepositoryServiceTest.testSuspend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RepositoryServiceTest_testSuspend - 2018.06.26 at 20h 30m 47s.xml">
+      <configuration name="RepositoryServiceTest.testSuspend" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33299000" />
+    <option name="totallyTimeSpent" value="34228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -490,7 +535,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32917705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20314735" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -892,16 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/DemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -909,17 +944,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/DemoMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        <state relative-caret-position="263">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

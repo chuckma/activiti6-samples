@@ -5,6 +5,7 @@ import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.repository.DeploymentBuilder;
 import org.activiti.engine.repository.DeploymentQuery;
 import org.activiti.engine.repository.ProcessDefinition;
+import org.activiti.engine.task.IdentityLink;
 import org.activiti.engine.test.ActivitiRule;
 import org.junit.Rule;
 import org.junit.Test;
@@ -66,6 +67,63 @@ public class RepositoryServiceTest {
                     processDefinition.getKey(),
                     processDefinition.getId());
         }
+    }
+
+
+
+    @Test
+    @org.activiti.engine.test.Deployment(resources = {"my-process.bpmn20.xml"})
+    public void testSuspend(){
+        RepositoryService repositoryService = activitiRule.getRepositoryService();
+
+        ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery().singleResult();
+
+        logger.info("processDefinition.id = {}",processDefinition.getId());
+
+        repositoryService.suspendProcessDefinitionById(processDefinition.getId());
+        try {
+            logger.info("开始启动");
+            activitiRule.getRuntimeService().startProcessInstanceById(processDefinition.getId());
+            logger.info("启动成功");
+        } catch (Exception e) {
+            logger.info("启动失败");
+            logger.info(e.getMessage(),e);
+        }
+
+        repositoryService.activateProcessDefinitionById(processDefinition.getId());
+
+        logger.info("开始启动");
+        activitiRule.getRuntimeService().startProcessInstanceById(processDefinition.getId());
+        logger.info("启动成功");
+
+    }
+
+
+    @Test
+    @org.activiti.engine.test.Deployment(resources = {"my-process.bpmn20.xml"})
+    public void testCandidateStarter(){
+        RepositoryService repositoryService = activitiRule.getRepositoryService();
+
+        ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery().singleResult();
+
+        logger.info("processDefinition.id = {}",processDefinition.getId());
+
+        // 添加一个指定的用户 user
+        repositoryService.addCandidateStarterUser(processDefinition.getId(),"user");
+        // 添加一个用户组 用户组名称 groupM
+        repositoryService.addCandidateStarterGroup(processDefinition.getId(),"groupM");
+
+        List<IdentityLink> identityLinkList = repositoryService.getIdentityLinksForProcessDefinition(processDefinition.getId());
+
+        for (IdentityLink identityLink : identityLinkList) {
+            logger.info("identityLink =  {}",identityLink);
+        }
+
+
+        repositoryService.deleteCandidateStarterGroup(processDefinition.getId(),"groupM");
+        repositoryService.deleteCandidateStarterUser(processDefinition.getId(),"user");
+
+
     }
 
 }
