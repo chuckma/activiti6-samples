@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RunTimeServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coreapi/src/test/resources/my-process-message-received.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coreapi/src/test/resources/my-process-message.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coreapi/src/test/resources/my-process-signal-received.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coreapi/src/test/resources/my-process-trigger.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/TaskServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RunTimeServiceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunTimeServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RunTimeServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="229" column="56" lean-forward="true" selection-start-line="229" selection-start-column="56" selection-end-line="229" selection-end-column="56" />
+            <state relative-caret-position="391">
+              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,42 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-process-message.bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-message.bpmn20.xml">
-          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <file leaf-file-name="TaskServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/TaskServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="364">
+              <caret line="150" column="51" selection-start-line="150" selection-start-column="51" selection-end-line="150" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-process-signal-received.bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-signal-received.bpmn20.xml">
-          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <file leaf-file-name="TaskService.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/TaskService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my-process-message-received.bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-message-received.bpmn20.xml">
-          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my-process-trigger.bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-trigger.bpmn20.xml">
-          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="259">
+              <caret line="679" column="10" selection-start-line="679" selection-start-column="10" selection-end-line="679" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -78,6 +56,16 @@
         <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process.bpmn20.xml">
           <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="my-process-task.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml">
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -95,9 +83,11 @@
       <find>customPreCommandInterceptors</find>
       <find>druid.version</find>
       <find>Maps</find>
+      <find>jimmy</find>
       <find>LOGGER</find>
     </findStrings>
     <replaceStrings>
+      <replace>lucas</replace>
       <replace>logger</replace>
     </replaceStrings>
     <dirStrings>
@@ -154,6 +144,8 @@
         <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-message-received.bpmn20.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-message.bpmn20.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RunTimeServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/TaskServiceTest.java" />
       </list>
     </option>
   </component>
@@ -295,6 +287,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -318,6 +319,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coreapi/src/test/resources" />
       <recent name="$PROJECT_DIR$/config/src/main/resources/aa" />
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
       <recent name="$PROJECT_DIR$/config/src/main/resources/activiti_druid.cfg.xml" />
@@ -332,6 +334,7 @@
       <recent name="cn.lucasma.activiti.event" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coreapi/src/test/resources/cn/lucasma/activiti" />
       <recent name="$PROJECT_DIR$/coreapi/src/test/resources" />
       <recent name="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti" />
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
@@ -349,55 +352,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunTimeServiceTest.testMessageStart">
+  <component name="RunManager" selected="JUnit.TaskServiceTest.testTaskComment">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="RunTimeServiceTest.testExecutionQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.RunTimeServiceTest" />
-      <option name="METHOD_NAME" value="testExecutionQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RunTimeServiceTest.testMessageEventReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.RunTimeServiceTest" />
-      <option name="METHOD_NAME" value="testMessageEventReceived" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="RunTimeServiceTest.testMessageStart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
@@ -422,7 +379,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RunTimeServiceTest.testSignalEventReceived" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskServiceTest.testTaskAttachment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
       <extension name="coverage">
         <pattern>
@@ -433,8 +390,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.RunTimeServiceTest" />
-      <option name="METHOD_NAME" value="testSignalEventReceived" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testTaskAttachment" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -445,7 +402,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RunTimeServiceTest.testTrigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskServiceTest.testTaskComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
       <extension name="coverage">
         <pattern>
@@ -456,8 +413,54 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.RunTimeServiceTest" />
-      <option name="METHOD_NAME" value="testTrigger" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testTaskComment" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TaskServiceTest.testTaskService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testTaskService" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TaskServiceTest.testTaskServiceUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testTaskServiceUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -507,19 +510,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RunTimeServiceTest.testExecutionQuery" />
-      <item itemvalue="JUnit.RunTimeServiceTest.testTrigger" />
-      <item itemvalue="JUnit.RunTimeServiceTest.testSignalEventReceived" />
-      <item itemvalue="JUnit.RunTimeServiceTest.testMessageEventReceived" />
       <item itemvalue="JUnit.RunTimeServiceTest.testMessageStart" />
+      <item itemvalue="JUnit.TaskServiceTest.testTaskService" />
+      <item itemvalue="JUnit.TaskServiceTest.testTaskServiceUser" />
+      <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
+      <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
+        <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
+        <item itemvalue="JUnit.TaskServiceTest.testTaskServiceUser" />
+        <item itemvalue="JUnit.TaskServiceTest.testTaskService" />
         <item itemvalue="JUnit.RunTimeServiceTest.testMessageStart" />
-        <item itemvalue="JUnit.RunTimeServiceTest.testMessageEventReceived" />
-        <item itemvalue="JUnit.RunTimeServiceTest.testSignalEventReceived" />
-        <item itemvalue="JUnit.RunTimeServiceTest.testTrigger" />
-        <item itemvalue="JUnit.RunTimeServiceTest.testExecutionQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -539,48 +542,47 @@
       <workItem from="1529497243613" duration="15594000" />
       <workItem from="1529739347846" duration="3084000" />
       <workItem from="1529761639152" duration="4768000" />
-      <workItem from="1529843892101" duration="11588000" />
+      <workItem from="1529843892101" duration="13831000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTimeServiceTest_testTrigger - 2018.06.26 at 21h 45m 13s.xml">
-      <configuration name="RunTimeServiceTest.testTrigger" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTimeServiceTest_testSignalEventReceived - 2018.06.26 at 21h 49m 47s.xml">
-      <configuration name="RunTimeServiceTest.testSignalEventReceived" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTimeServiceTest_testSignalEventReceived - 2018.06.26 at 21h 50m 56s.xml">
-      <configuration name="RunTimeServiceTest.testSignalEventReceived" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTimeServiceTest_testSignalEventReceived - 2018.06.26 at 21h 53m 42s.xml">
-      <configuration name="RunTimeServiceTest.testSignalEventReceived" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTimeServiceTest_testTrigger - 2018.06.26 at 21h 54m 05s.xml">
-      <configuration name="RunTimeServiceTest.testTrigger" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTimeServiceTest_testSignalEventReceived - 2018.06.26 at 21h 55m 43s.xml">
-      <configuration name="RunTimeServiceTest.testSignalEventReceived" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTimeServiceTest_testSignalEventReceived - 2018.06.26 at 21h 57m 48s.xml">
-      <configuration name="RunTimeServiceTest.testSignalEventReceived" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTimeServiceTest_testSignalEventReceived - 2018.06.26 at 21h 58m 10s.xml">
-      <configuration name="RunTimeServiceTest.testSignalEventReceived" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunTimeServiceTest_testMessageEventReceived - 2018.06.26 at 22h 03m 02s.xml">
       <configuration name="RunTimeServiceTest.testMessageEventReceived" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RunTimeServiceTest_testMessageStart - 2018.06.26 at 22h 05m 13s.xml">
       <configuration name="RunTimeServiceTest.testMessageStart" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TaskServiceTest_testTaskService - 2018.06.27 at 19h 48m 43s.xml">
+      <configuration name="TaskServiceTest.testTaskService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskService - 2018.06.27 at 19h 49m 31s.xml">
+      <configuration name="TaskServiceTest.testTaskService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskService - 2018.06.27 at 19h 52m 08s.xml">
+      <configuration name="TaskServiceTest.testTaskService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskServiceUser - 2018.06.27 at 20h 14m 37s.xml">
+      <configuration name="TaskServiceTest.testTaskServiceUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskAttachment - 2018.06.27 at 20h 17m 13s.xml">
+      <configuration name="TaskServiceTest.testTaskAttachment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskComment - 2018.06.27 at 20h 20m 15s.xml">
+      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskComment - 2018.06.27 at 20h 21m 34s.xml">
+      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TaskServiceTest_testTaskComment - 2018.06.27 at 20h 22m 51s.xml">
+      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39088000" />
+    <option name="totallyTimeSpent" value="41331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -594,10 +596,10 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.46633416" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.32917705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31545064" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31545064" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -656,27 +658,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/MyUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/interceptor/DebugCommandInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_history.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -996,10 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process.bpmn20.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-trigger.bpmn20.xml">
       <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1034,8 +1011,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RunTimeServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="229" column="56" lean-forward="true" selection-start-line="229" selection-start-column="56" selection-end-line="229" selection-end-column="56" />
+        <state relative-caret-position="391">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process.bpmn20.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="679" column="10" selection-start-line="679" selection-start-column="10" selection-end-line="679" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/TaskServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="150" column="51" selection-start-line="150" selection-start-column="51" selection-end-line="150" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
