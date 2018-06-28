@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/coreapi/src/main/resources/activiti_history.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/HistoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/mapper/MyCustomMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/main/resources/activiti_job.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/ManagementServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/test/resources/my-process-job.bpmn20.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +21,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HistoryServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/HistoryServiceTest.java">
+      <file leaf-file-name="ManagementServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/ManagementServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1283">
-              <caret line="131" column="87" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="87" />
+            <state relative-caret-position="143">
+              <caret line="79" column="114" selection-start-line="79" selection-start-column="114" selection-end-line="79" selection-end-column="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCustomMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/mapper/MyCustomMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-process-job.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-job.bpmn20.xml">
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -60,10 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigTest.java" />
-        <option value="$PROJECT_DIR$/config/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigDBTest.java" />
         <option value="$PROJECT_DIR$/config/src/main/resources/activiti_druid.cfg.xml" />
         <option value="$PROJECT_DIR$/config/src/main/resources/activiti.cfg.xml" />
@@ -111,6 +131,10 @@
         <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/FormServiceTest.java" />
         <option value="$PROJECT_DIR$/coreapi/src/main/resources/activiti_history.cfg.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/HistoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-job.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/main/resources/activiti_job.cfg.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/ManagementServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/mapper/MyCustomMapper.java" />
       </list>
     </option>
   </component>
@@ -201,6 +225,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
@@ -309,32 +343,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HistoryServiceTest.testHistoryService">
+  <component name="RunManager" selected="JUnit.ManagementServiceTest.testCustomSql">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="FormServiceTest.testFormService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.FormServiceTest" />
-      <option name="METHOD_NAME" value="testFormService" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="HistoryServiceTest.testHistoryService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
@@ -359,7 +370,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="IdentityServiceTest.testIdentity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagementServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
       <extension name="coverage">
         <pattern>
@@ -370,8 +381,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.IdentityServiceTest" />
-      <option name="METHOD_NAME" value="testIdentity" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.ManagementServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ManagementServiceTest.testCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.ManagementServiceTest" />
+      <option name="METHOD_NAME" value="testCommand" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -382,7 +416,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TaskServiceTest.testTaskAttachment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagementServiceTest.testCustomSql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
       <extension name="coverage">
         <pattern>
@@ -393,8 +427,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.TaskServiceTest" />
-      <option name="METHOD_NAME" value="testTaskAttachment" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.ManagementServiceTest" />
+      <option name="METHOD_NAME" value="testCustomSql" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -405,7 +439,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TaskServiceTest.testTaskComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManagementServiceTest.testTablePageQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
       <extension name="coverage">
         <pattern>
@@ -416,8 +450,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.TaskServiceTest" />
-      <option name="METHOD_NAME" value="testTaskComment" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.ManagementServiceTest" />
+      <option name="METHOD_NAME" value="testTablePageQuery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -467,19 +501,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
-      <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
-      <item itemvalue="JUnit.IdentityServiceTest.testIdentity" />
-      <item itemvalue="JUnit.FormServiceTest.testFormService" />
       <item itemvalue="JUnit.HistoryServiceTest.testHistoryService" />
+      <item itemvalue="JUnit.ManagementServiceTest.testTablePageQuery" />
+      <item itemvalue="JUnit.ManagementServiceTest.testCustomSql" />
+      <item itemvalue="JUnit.ManagementServiceTest.testCommand" />
+      <item itemvalue="JUnit.ManagementServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ManagementServiceTest.testCustomSql" />
+        <item itemvalue="JUnit.ManagementServiceTest" />
+        <item itemvalue="JUnit.ManagementServiceTest.testCommand" />
+        <item itemvalue="JUnit.ManagementServiceTest.testTablePageQuery" />
         <item itemvalue="JUnit.HistoryServiceTest.testHistoryService" />
-        <item itemvalue="JUnit.FormServiceTest.testFormService" />
-        <item itemvalue="JUnit.IdentityServiceTest.testIdentity" />
-        <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
-        <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
       </list>
     </recent_temporary>
   </component>
@@ -499,47 +533,48 @@
       <workItem from="1529497243613" duration="15594000" />
       <workItem from="1529739347846" duration="3084000" />
       <workItem from="1529761639152" duration="4768000" />
-      <workItem from="1529843892101" duration="18162000" />
+      <workItem from="1529843892101" duration="20211000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskServiceTest_testTaskService - 2018.06.27 at 19h 52m 08s.xml">
-      <configuration name="TaskServiceTest.testTaskService" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskServiceUser - 2018.06.27 at 20h 14m 37s.xml">
-      <configuration name="TaskServiceTest.testTaskServiceUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskAttachment - 2018.06.27 at 20h 17m 13s.xml">
-      <configuration name="TaskServiceTest.testTaskAttachment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskComment - 2018.06.27 at 20h 20m 15s.xml">
-      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskComment - 2018.06.27 at 20h 21m 34s.xml">
-      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TaskServiceTest_testTaskComment - 2018.06.27 at 20h 22m 51s.xml">
-      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentityServiceTest_testIdentity - 2018.06.27 at 20h 43m 51s.xml">
-      <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdentityServiceTest_testIdentity - 2018.06.27 at 20h 45m 43s.xml">
-      <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FormServiceTest_testFormService - 2018.06.28 at 20h 52m 24s.xml">
       <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HistoryServiceTest_testHistoryService - 2018.06.28 at 21h 23m 53s.xml">
       <configuration name="HistoryServiceTest.testHistoryService" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HistoryServiceTest_testHistoryService - 2018.06.28 at 21h 27m 10s.xml">
+      <configuration name="HistoryServiceTest.testHistoryService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagementServiceTest_testTablePageQuery - 2018.06.28 at 21h 46m 30s.xml">
+      <configuration name="ManagementServiceTest.testTablePageQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagementServiceTest_testCustomSql - 2018.06.28 at 21h 49m 43s.xml">
+      <configuration name="ManagementServiceTest.testCustomSql" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagementServiceTest_testCommand - 2018.06.28 at 21h 50m 50s.xml">
+      <configuration name="ManagementServiceTest.testCommand" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagementServiceTest_testCustomSql - 2018.06.28 at 21h 52m 10s.xml">
+      <configuration name="ManagementServiceTest.testCustomSql" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagementServiceTest - 2018.06.28 at 21h 57m 02s.xml">
+      <configuration name="ManagementServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagementServiceTest_testCustomSql - 2018.06.28 at 21h 59m 03s.xml">
+      <configuration name="ManagementServiceTest.testCustomSql" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManagementServiceTest_testCustomSql - 2018.06.28 at 22h 05m 47s.xml">
+      <configuration name="ManagementServiceTest.testCustomSql" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45662000" />
+    <option name="totallyTimeSpent" value="47711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -550,13 +585,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32917705" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7256858" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7256858" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32917705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17668097" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -615,37 +650,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigMDCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventLogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="47" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_druid.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_mdc.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/java/cn/lucasma/activiti/delegate/HelloBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -725,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -739,13 +736,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
@@ -1017,16 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/FormServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="60" column="87" selection-start-line="60" selection-start-column="87" selection-end-line="60" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/activiti.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/activiti_history.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1036,8 +1016,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/HistoryServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1283">
+        <state relative-caret-position="1749">
           <caret line="131" column="87" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/FormServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="60" selection-start-line="60" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/activiti_job.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-job.bpmn20.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/ManagementServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="79" column="114" selection-start-line="79" selection-start-column="114" selection-end-line="79" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/mapper/MyCustomMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
