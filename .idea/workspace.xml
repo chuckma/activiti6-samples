@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/IdentityServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/FormServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coreapi/src/test/resources/my-process-form.bpmn20.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,70 +19,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RunTimeServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RunTimeServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/TaskServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="150" selection-start-line="150" selection-end-line="151" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IdentityServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/IdentityServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="288">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdentityService.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/IdentityService.java">
+      <file leaf-file-name="FormServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/FormServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="568">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdentityServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/IdentityServiceImpl.java">
+      <file leaf-file-name="my-process-form.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-form.bpmn20.xml">
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
-              <folding>
-                <element signature="e#2499#2500#0" expanded="true" />
-                <element signature="e#2555#2556#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaveUserCmd.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cmd/SaveUserCmd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-              <folding>
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -165,6 +126,8 @@
         <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/TaskServiceTest.java" />
         <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/IdentityServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-form.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/FormServiceTest.java" />
       </list>
     </option>
   </component>
@@ -306,15 +269,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="activiti6-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -353,8 +307,8 @@
       <recent name="cn.lucasma.activiti.event" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/coreapi/src/test/resources/cn/lucasma/activiti" />
       <recent name="$PROJECT_DIR$/coreapi/src/test/resources" />
+      <recent name="$PROJECT_DIR$/coreapi/src/test/resources/cn/lucasma/activiti" />
       <recent name="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti" />
       <recent name="$PROJECT_DIR$/config/src/main/resources" />
     </key>
@@ -371,9 +325,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IdentityServiceTest.testIdentity">
+  <component name="RunManager" selected="JUnit.FormServiceTest.testFormService">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="FormServiceTest.testFormService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.FormServiceTest" />
+      <option name="METHOD_NAME" value="testFormService" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="IdentityServiceTest.testIdentity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
@@ -434,29 +411,6 @@
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
       <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.TaskServiceTest" />
       <option name="METHOD_NAME" value="testTaskComment" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TaskServiceTest.testTaskService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.coreapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.coreapi.TaskServiceTest" />
-      <option name="METHOD_NAME" value="testTaskService" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -529,19 +483,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TaskServiceTest.testTaskService" />
       <item itemvalue="JUnit.TaskServiceTest.testTaskServiceUser" />
       <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
       <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
       <item itemvalue="JUnit.IdentityServiceTest.testIdentity" />
+      <item itemvalue="JUnit.FormServiceTest.testFormService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FormServiceTest.testFormService" />
         <item itemvalue="JUnit.IdentityServiceTest.testIdentity" />
         <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
         <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
         <item itemvalue="JUnit.TaskServiceTest.testTaskServiceUser" />
-        <item itemvalue="JUnit.TaskServiceTest.testTaskService" />
       </list>
     </recent_temporary>
   </component>
@@ -561,14 +515,11 @@
       <workItem from="1529497243613" duration="15594000" />
       <workItem from="1529739347846" duration="3084000" />
       <workItem from="1529761639152" duration="4768000" />
-      <workItem from="1529843892101" duration="14943000" />
+      <workItem from="1529843892101" duration="16360000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskServiceTest_testTaskService - 2018.06.27 at 19h 48m 43s.xml">
-      <configuration name="TaskServiceTest.testTaskService" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TaskServiceTest_testTaskService - 2018.06.27 at 19h 49m 31s.xml">
       <configuration name="TaskServiceTest.testTaskService" configurationId="JUnit" />
     </history-entry>
@@ -596,9 +547,12 @@
     <history-entry file="IdentityServiceTest_testIdentity - 2018.06.27 at 20h 45m 43s.xml">
       <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FormServiceTest_testFormService - 2018.06.28 at 20h 52m 24s.xml">
+      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42443000" />
+    <option name="totallyTimeSpent" value="43860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -678,20 +632,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventListenerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigInterceptorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -930,10 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process.bpmn20.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml">
       <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
@@ -956,20 +892,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/IdentityServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/IdentityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1101,12 +1023,45 @@
     </entry>
     <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cmd/SaveUserCmd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="323">
+          <caret line="37" column="58" selection-start-line="37" selection-end-line="38" />
           <folding>
             <element signature="e#1176#1177#0" expanded="true" />
             <element signature="e#1202#1203#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/IdentityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process.bpmn20.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/IdentityServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-form.bpmn20.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/FormServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
