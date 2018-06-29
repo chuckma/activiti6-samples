@@ -12,6 +12,7 @@
     <modules>
         <module>config</module>
         <module>coreapi</module>
+        <module>dbentity</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
