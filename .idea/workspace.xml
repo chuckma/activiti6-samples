@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dbentity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbGeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbentity/src/test/resources/my-process.bpmn20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,23 +44,62 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="activiti6unit: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="activiti6unit@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="activiti6unit: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="ACT_GE_BYTEARRAY: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DbGeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DbGeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbGeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+            <state relative-caret-position="466">
+              <caret line="43" column="68" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbRepositoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="act_re_deployment" pinned="false" current-in-tab="false">
+        <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_re_deployment">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="act_re_procdef" pinned="false" current-in-tab="true">
+        <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_re_procdef">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="second_approve.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/second_approve.bpmn20.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+        </entry>
+      </file>
+      <file leaf-file-name="act_ge_bytearray" pinned="false" current-in-tab="false">
+        <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ge_bytearray">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -104,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/src/main/resources/activiti_history.cfg.xml" />
-        <option value="$PROJECT_DIR$/config/src/main/resources/activiti_eventlog.cfg.xml" />
         <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigHistoryLevelTest.java" />
         <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigMDCTest.java" />
         <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigEventLogTest.java" />
@@ -155,6 +185,8 @@
         <option value="$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml" />
         <option value="$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbConfigTest.java" />
         <option value="$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbGeTest.java" />
+        <option value="$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/dbentity/src/main/resources/second_approve.bpmn20.xml" />
       </list>
     </option>
   </component>
@@ -364,55 +396,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DbGeTest.testByteArrayInsert">
+  <component name="RunManager" selected="JUnit.DbRepositoryTest.testSuspend">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DbConfigTest.testDbConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dbentity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.dbentity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.dbentity" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.dbentity.DbConfigTest" />
-      <option name="METHOD_NAME" value="testDbConfig" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DbConfigTest.testDropTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dbentity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lucasma.activiti.dbentity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.dbentity" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.dbentity.DbConfigTest" />
-      <option name="METHOD_NAME" value="testDropTable" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="DbGeTest.testByArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dbentity" />
@@ -483,6 +469,52 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="DbRepositoryTest.testDeploy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbentity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.dbentity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.dbentity" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.dbentity.DbRepositoryTest" />
+      <option name="METHOD_NAME" value="testDeploy" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DbRepositoryTest.testSuspend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbentity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lucasma.activiti.dbentity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.lucasma.activiti.dbentity" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.dbentity.DbRepositoryTest" />
+      <option name="METHOD_NAME" value="testSuspend" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -522,19 +554,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DbConfigTest.testDbConfig" />
-      <item itemvalue="JUnit.DbConfigTest.testDropTable" />
       <item itemvalue="JUnit.DbGeTest.testByArray" />
       <item itemvalue="JUnit.DbGeTest.testByteArray" />
       <item itemvalue="JUnit.DbGeTest.testByteArrayInsert" />
+      <item itemvalue="JUnit.DbRepositoryTest.testDeploy" />
+      <item itemvalue="JUnit.DbRepositoryTest.testSuspend" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DbRepositoryTest.testSuspend" />
+        <item itemvalue="JUnit.DbRepositoryTest.testDeploy" />
         <item itemvalue="JUnit.DbGeTest.testByteArrayInsert" />
         <item itemvalue="JUnit.DbGeTest.testByteArray" />
         <item itemvalue="JUnit.DbGeTest.testByArray" />
-        <item itemvalue="JUnit.DbConfigTest.testDropTable" />
-        <item itemvalue="JUnit.DbConfigTest.testDbConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -556,17 +588,11 @@
       <workItem from="1529761639152" duration="4768000" />
       <workItem from="1529843892101" duration="21067000" />
       <workItem from="1530272942653" duration="70000" />
-      <workItem from="1530273025246" duration="2575000" />
+      <workItem from="1530273025246" duration="3316000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DbConfigTest_testDbConfig - 2018.06.29 at 20h 10m 51s.xml">
-      <configuration name="DbConfigTest.testDbConfig" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbConfigTest_testDbConfig - 2018.06.29 at 20h 15m 07s.xml">
-      <configuration name="DbConfigTest.testDbConfig" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DbConfigTest_testDropTable - 2018.06.29 at 20h 21m 10s.xml">
       <configuration name="DbConfigTest.testDropTable" configurationId="JUnit" />
     </history-entry>
@@ -591,44 +617,59 @@
     <history-entry file="DbGeTest_testByteArray - 2018.06.29 at 20h 33m 09s.xml">
       <configuration name="DbGeTest.testByteArray" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DbGeTest_testByteArrayInsert - 2018.06.29 at 20h 36m 10s.xml">
+      <configuration name="DbGeTest.testByteArrayInsert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRepositoryTest_testDeploy - 2018.06.29 at 20h 58m 05s.xml">
+      <configuration name="DbRepositoryTest.testDeploy" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51212000" />
+    <option name="totallyTimeSpent" value="51953000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32917705" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32917705" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.32917705" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7256858" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917705" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32917705" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.3297568" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32917705" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25178826" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32917705" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -674,34 +715,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigSpringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-spring/6.0.0/activiti-spring-6.0.0.jar!/org/activiti/spring/ProcessEngineFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-spring/6.0.0/activiti-spring-6.0.0.jar!/org/activiti/spring/SpringProcessEngineConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/developer/repo/org/activiti/activiti-spring/6.0.0/activiti-spring-6.0.0.jar!/org/activiti/spring/SpringTransactionInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1042,8 +1055,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbGeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+        <state relative-caret-position="466">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/second_approve.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/cn/lucasma/activiti/dbentity/DbRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_re_deployment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_re_procdef">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
