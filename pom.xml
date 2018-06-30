@@ -13,6 +13,7 @@
         <module>config</module>
         <module>coreapi</module>
         <module>dbentity</module>
+        <module>bpmn20</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
