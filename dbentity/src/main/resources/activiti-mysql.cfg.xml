@@ -7,7 +7,7 @@
     <property name="dataSource" ref="dataSource"/>
     <property name="databaseSchemaUpdate" value="true"/>
 
-    <property name="dbHistoryUsed" value="false"/>
+    <property name="dbHistoryUsed" value="true"/>
     <property name="dbIdentityUsed" value="true"/>
 
     <!--<property name="historyLevel" value="FULL"/>-->
