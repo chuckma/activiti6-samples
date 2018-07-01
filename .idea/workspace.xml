@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd30dad0-f868-4551-b3c4-b7734547ae63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ScriptTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask1.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask2.bpmn20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask3.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyActivityBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyJavaBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyJavaDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/main/resources/activiti-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ServiceTaskSpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ServiceTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask1.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask2.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask3.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask4.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask5.bpmn20.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,27 +60,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ScriptTaskTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ScriptTaskTest.java">
+      <file leaf-file-name="ServiceTaskSpringTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ServiceTaskSpringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="112" column="50" lean-forward="true" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+            <state relative-caret-position="194">
+              <caret line="65" column="54" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-process-scripttask1.bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask1.bpmn20.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="40" />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-        </entry>
-      </file>
-      <file leaf-file-name="my-process-scripttask2.bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask2.bpmn20.xml">
+      <file leaf-file-name="my-process-servicetask5.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask5.bpmn20.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -82,33 +79,33 @@
           <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
         </entry>
       </file>
-      <file leaf-file-name="my-process-scripttask3.bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask3.bpmn20.xml">
+      <file leaf-file-name="MyJavaDelegate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyJavaDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="425">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-process-servicetask4.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask4.bpmn20.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
           <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
         </entry>
       </file>
-      <file leaf-file-name="UserTaskTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/UserTaskTest.java">
+      <file leaf-file-name="ServiceTaskTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ServiceTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimerEventTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/TimerEventTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="18" column="48" selection-start-line="18" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="449">
+              <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -146,17 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/src/test/resources/cn/lucasma/activiti/my-process_spring.bpmn20.xml" />
-        <option value="$PROJECT_DIR$/config/src/test/java/cn/lucasma/activiti/config/ConfigSpringTest.java" />
-        <option value="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepostoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/coreapi/pom.xml" />
-        <option value="$PROJECT_DIR$/coreapi/src/main/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/RepositoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/coreapi/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RepositoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-trigger.bpmn20.xml" />
-        <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-signal-received.bpmn20.xml" />
-        <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-message-received.bpmn20.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-message.bpmn20.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/java/cn/lucasma/activiti/coreapi/RunTimeServiceTest.java" />
         <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml" />
@@ -197,6 +183,17 @@
         <option value="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask2.bpmn20.xml" />
         <option value="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask3.bpmn20.xml" />
         <option value="$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ScriptTaskTest.java" />
+        <option value="$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyActivityBehavior.java" />
+        <option value="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask1.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask2.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask3.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyJavaDelegate.java" />
+        <option value="$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ServiceTaskTest.java" />
+        <option value="$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyJavaBean.java" />
+        <option value="$PROJECT_DIR$/bpmn20/src/main/resources/activiti-context.xml" />
+        <option value="$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ServiceTaskSpringTest.java" />
+        <option value="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask5.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask4.bpmn20.xml" />
       </list>
     </option>
   </component>
@@ -377,10 +374,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bpmn20/src/test/resources" />
+      <recent name="$PROJECT_DIR$/bpmn20/src/main/resources" />
       <recent name="$PROJECT_DIR$/dbentity/src/test/resources" />
       <recent name="$PROJECT_DIR$/dbentity/src/main/resources" />
       <recent name="$PROJECT_DIR$/coreapi/src/main/resources" />
-      <recent name="$PROJECT_DIR$/coreapi/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.lucasma.activiti.bpmn20" />
@@ -408,11 +405,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScriptTaskTest.testScriptEngine">
+  <component name="RunManager" selected="JUnit.ServiceTaskSpringTest.testServiceTask2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ScriptTaskTest.testScriptEngine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTaskSpringTest.testServiceTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bpmn20" />
       <extension name="coverage">
         <pattern>
@@ -423,8 +420,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.bpmn20" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ScriptTaskTest" />
-      <option name="METHOD_NAME" value="testScriptEngine" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ServiceTaskSpringTest" />
+      <option name="METHOD_NAME" value="testServiceTask" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -435,7 +432,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ScriptTaskTest.testScriptTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTaskSpringTest.testServiceTask2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bpmn20" />
       <extension name="coverage">
         <pattern>
@@ -446,8 +443,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.bpmn20" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ScriptTaskTest" />
-      <option name="METHOD_NAME" value="testScriptTask" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ServiceTaskSpringTest" />
+      <option name="METHOD_NAME" value="testServiceTask2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -458,7 +455,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ScriptTaskTest.testScriptTask2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTaskSpringTest.testServiceTask5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bpmn20" />
       <extension name="coverage">
         <pattern>
@@ -469,8 +466,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.bpmn20" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ScriptTaskTest" />
-      <option name="METHOD_NAME" value="testScriptTask2" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ServiceTaskSpringTest" />
+      <option name="METHOD_NAME" value="testServiceTask5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -481,7 +478,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ScriptTaskTest.testScriptTask3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTaskTest.testServiceTask2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bpmn20" />
       <extension name="coverage">
         <pattern>
@@ -492,8 +489,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.bpmn20" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ScriptTaskTest" />
-      <option name="METHOD_NAME" value="testScriptTask3" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ServiceTaskTest" />
+      <option name="METHOD_NAME" value="testServiceTask2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -504,7 +501,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserTaskTest.testUserTask2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTaskTest.testServiceTask3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bpmn20" />
       <extension name="coverage">
         <pattern>
@@ -515,8 +512,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="cn.lucasma.activiti.bpmn20" />
-      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.UserTaskTest" />
-      <option name="METHOD_NAME" value="testUserTask2" />
+      <option name="MAIN_CLASS_NAME" value="cn.lucasma.activiti.bpmn20.ServiceTaskTest" />
+      <option name="METHOD_NAME" value="testServiceTask3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -566,19 +563,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserTaskTest.testUserTask2" />
-      <item itemvalue="JUnit.ScriptTaskTest.testScriptTask" />
-      <item itemvalue="JUnit.ScriptTaskTest.testScriptTask2" />
-      <item itemvalue="JUnit.ScriptTaskTest.testScriptTask3" />
-      <item itemvalue="JUnit.ScriptTaskTest.testScriptEngine" />
+      <item itemvalue="JUnit.ServiceTaskTest.testServiceTask3" />
+      <item itemvalue="JUnit.ServiceTaskTest.testServiceTask2" />
+      <item itemvalue="JUnit.ServiceTaskSpringTest.testServiceTask" />
+      <item itemvalue="JUnit.ServiceTaskSpringTest.testServiceTask2" />
+      <item itemvalue="JUnit.ServiceTaskSpringTest.testServiceTask5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ScriptTaskTest.testScriptEngine" />
-        <item itemvalue="JUnit.ScriptTaskTest.testScriptTask3" />
-        <item itemvalue="JUnit.ScriptTaskTest.testScriptTask2" />
-        <item itemvalue="JUnit.ScriptTaskTest.testScriptTask" />
-        <item itemvalue="JUnit.UserTaskTest.testUserTask2" />
+        <item itemvalue="JUnit.ServiceTaskSpringTest.testServiceTask2" />
+        <item itemvalue="JUnit.ServiceTaskSpringTest.testServiceTask5" />
+        <item itemvalue="JUnit.ServiceTaskSpringTest.testServiceTask" />
+        <item itemvalue="JUnit.ServiceTaskTest.testServiceTask2" />
+        <item itemvalue="JUnit.ServiceTaskTest.testServiceTask3" />
       </list>
     </recent_temporary>
   </component>
@@ -600,44 +597,44 @@
       <workItem from="1529761639152" duration="4768000" />
       <workItem from="1529843892101" duration="21067000" />
       <workItem from="1530272942653" duration="70000" />
-      <workItem from="1530273025246" duration="13439000" />
+      <workItem from="1530273025246" duration="16225000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTaskTest_testUserTask - 2018.06.30 at 21h 44m 29s.xml">
-      <configuration name="UserTaskTest.testUserTask" configurationId="JUnit" />
+    <history-entry file="ServiceTaskTest_testServiceTask - 2018.07.01 at 09h 31m 43s.xml">
+      <configuration name="ServiceTaskTest.testServiceTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTaskTest_testUserTask - 2018.06.30 at 21h 48m 23s.xml">
-      <configuration name="UserTaskTest.testUserTask" configurationId="JUnit" />
+    <history-entry file="ServiceTaskTest_testServiceTask3 - 2018.07.01 at 09h 56m 09s.xml">
+      <configuration name="ServiceTaskTest.testServiceTask3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTaskTest_testUserTask2 - 2018.06.30 at 21h 57m 26s.xml">
-      <configuration name="UserTaskTest.testUserTask2" configurationId="JUnit" />
+    <history-entry file="ServiceTaskTest_testServiceTask3 - 2018.07.01 at 09h 58m 00s.xml">
+      <configuration name="ServiceTaskTest.testServiceTask3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScriptTaskTest_testScriptTask - 2018.07.01 at 09h 06m 02s.xml">
-      <configuration name="ScriptTaskTest.testScriptTask" configurationId="JUnit" />
+    <history-entry file="ServiceTaskTest_testServiceTask2 - 2018.07.01 at 09h 58m 19s.xml">
+      <configuration name="ServiceTaskTest.testServiceTask2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScriptTaskTest_testScriptTask2 - 2018.07.01 at 09h 08m 53s.xml">
-      <configuration name="ScriptTaskTest.testScriptTask2" configurationId="JUnit" />
+    <history-entry file="ServiceTaskSpringTest_testServiceTask - 2018.07.01 at 10h 11m 40s.xml">
+      <configuration name="ServiceTaskSpringTest.testServiceTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScriptTaskTest_testScriptTask3 - 2018.07.01 at 09h 11m 43s.xml">
-      <configuration name="ScriptTaskTest.testScriptTask3" configurationId="JUnit" />
+    <history-entry file="ServiceTaskSpringTest_testServiceTask - 2018.07.01 at 10h 12m 54s.xml">
+      <configuration name="ServiceTaskSpringTest.testServiceTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScriptTaskTest_testScriptEngine - 2018.07.01 at 09h 14m 28s.xml">
-      <configuration name="ScriptTaskTest.testScriptEngine" configurationId="JUnit" />
+    <history-entry file="ServiceTaskSpringTest_testServiceTask2 - 2018.07.01 at 10h 18m 33s.xml">
+      <configuration name="ServiceTaskSpringTest.testServiceTask2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScriptTaskTest_testScriptEngine - 2018.07.01 at 09h 16m 15s.xml">
-      <configuration name="ScriptTaskTest.testScriptEngine" configurationId="JUnit" />
+    <history-entry file="ServiceTaskSpringTest_testServiceTask2 - 2018.07.01 at 10h 19m 12s.xml">
+      <configuration name="ServiceTaskSpringTest.testServiceTask2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScriptTaskTest_testScriptEngine - 2018.07.01 at 09h 16m 52s.xml">
-      <configuration name="ScriptTaskTest.testScriptEngine" configurationId="JUnit" />
+    <history-entry file="ServiceTaskSpringTest_testServiceTask5 - 2018.07.01 at 10h 26m 23s.xml">
+      <configuration name="ServiceTaskSpringTest.testServiceTask5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScriptTaskTest_testScriptEngine - 2018.07.01 at 09h 17m 30s.xml">
-      <configuration name="ScriptTaskTest.testScriptEngine" configurationId="JUnit" />
+    <history-entry file="ServiceTaskSpringTest_testServiceTask2 - 2018.07.01 at 10h 29m 37s.xml">
+      <configuration name="ServiceTaskSpringTest.testServiceTask2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62076000" />
+    <option name="totallyTimeSpent" value="64862000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,105 +689,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ScriptTaskTest.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_task">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_event_subscr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_event_subscr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_event_subscr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_event_subscr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbentity/src/test/resources/my-process-message.bpmn20.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbentity/src/test/resources/my-process-message-received.bpmn20.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-    </entry>
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_event_subscr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_event_subscr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_event_subscr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbentity/src/test/resources/my-process-job.bpmn20.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-    </entry>
-    <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_event_subscr">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://25f7dedd-9363-4f25-b193-300cf79c91fe/schema/activiti6unit/table/act_ru_timer_job">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1055,16 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/TimerEventTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="18" column="48" selection-start-line="18" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-scripttask1.bpmn20.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1075,8 +967,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ScriptTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="112" column="50" lean-forward="true" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+        <state relative-caret-position="153">
+          <caret line="26" column="50" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask1.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask2.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/TimerEventTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="18" column="48" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyActivityBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyJavaBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask3.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/main/resources/activiti-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/main/resources/second_approve.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1568" />
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask5.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/resources/my-process-servicetask4.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ServiceTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/test/java/cn/lucasma/activiti/bpmn20/ServiceTaskSpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="65" column="54" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpmn20/src/main/java/cn/lucasma/activiti/example/MyJavaDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
