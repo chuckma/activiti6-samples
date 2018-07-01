@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:activiti="http://activiti.org/bpmn"
+	xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC"
+	xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema"
+	expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/test">
+
+	<process id="my-process">
+
+		<startEvent id="start" />
+		<callActivity id="callactivity" calledElement="my-process-check-order">
+			<extensionElements>
+				<activiti:in source="errorflag" target="errorflag" />
+				<activiti:out source="key1" target="key1"/>
+			</extensionElements>
+		</callActivity>
+		<boundaryEvent id="boundary" attachedToRef="callactivity">
+			<errorEventDefinition errorRef="bpmnError"></errorEventDefinition>
+		</boundaryEvent>
+		<userTask id="orderComplete" name="订单完成(test)"/>
+		<userTask id="orderEroor" name="异常处理"/>
+		<endEvent id="end" />
+
+		<sequenceFlow sourceRef="start" targetRef="callactivity"/>
+		<sequenceFlow sourceRef="callactivity" targetRef="orderComplete"/>
+		<sequenceFlow sourceRef="boundary" targetRef="orderEroor"/>
+		<sequenceFlow sourceRef="orderComplete" targetRef="end"/>
+		<sequenceFlow sourceRef="orderEroor" targetRef="end"/>
+
+	</process>
+
+</definitions>
