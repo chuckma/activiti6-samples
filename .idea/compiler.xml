@@ -10,6 +10,7 @@
         <module name="config" />
         <module name="coreapi" />
         <module name="dbentity" />
+        <module name="springboot" />
       </profile>
     </annotationProcessing>
   </component>
